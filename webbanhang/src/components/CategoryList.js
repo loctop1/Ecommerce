@@ -21,7 +21,7 @@ const CategoryList = () => {
     }, [])
 
     return (
-        <div className='container mx-auto p-4 lg:my-0 my-11 mb-0'>
+        <div className='container mx-auto p-4 lg:my-0 my-12 mb-0'>
             <div className='flex items-center gap-4 justify-between overflow-scroll scrollbar-none'>
                 {
 
