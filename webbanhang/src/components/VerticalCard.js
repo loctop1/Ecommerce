@@ -65,7 +65,7 @@ const VerticalCard = ({ loading, data = [] }) => {
                                         </p>
                                     </div>
                                 </div>
-                                <div className='pr-4 pl-4'>
+                                <div className='pr-4 pl-4 py-4'>
                                     <button
                                         className='w-full rounded-full font-semibold md:text-md text-base bg-[#cc0000] hover:bg-red-700 text-white px-3 py-2 transition-colors'
                                         onClick={(e) => handleAddToCart(e, product?._id)}
