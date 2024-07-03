@@ -23,7 +23,7 @@ const OrderPage = () => {
     }, [])
 
     return (
-        <div className='container mx-auto p-4'>
+        <div className='container mx-auto p-4 lg:my-0 my-12 mb-0'>
             <h1 className='text-2xl font-bold mb-4 text-center'>Lịch sử mua hàng</h1>
             {
                 !data[0] && (
