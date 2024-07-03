@@ -105,7 +105,7 @@ const Header = () => {
                 </div>
             </div>
             {/* Mobile Search Bar */}
-            <div className='lg:hidden fixed bottom-0 left-0 right-0 bg-white border-t-2 border-gray-200 px-4 py-2 z-50'>
+            <div className='lg:hidden fixed top-[3.75rem] left-0 right-0 bg-white border-t-2 border-gray-200 px-4 py-2 z-50'>
                 <div className='max-w-sm mx-auto'>
                     <div className='relative'>
                         <input
