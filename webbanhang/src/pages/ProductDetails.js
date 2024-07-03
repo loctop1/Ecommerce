@@ -89,7 +89,7 @@ const ProductDetails = () => {
   }
 
   return (
-    <div className='container mx-auto p-4'>
+    <div className='container mx-auto p-4 lg:my-0 my-10 mb-0'>
       <div className='min-h-[200px] flex flex-col lg:flex-row gap-4'>
         {/* Product Images */}
         <div className='flex flex-col lg:flex-row-reverse gap-4'>

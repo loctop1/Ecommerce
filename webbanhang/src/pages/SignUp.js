@@ -26,7 +26,7 @@ const SignUp = () => {
         setData((preve) => {
             return {
                 ...preve,
-                [name]: value
+                [name]: value,
             }
         })
     }
@@ -71,7 +71,7 @@ const SignUp = () => {
     }
     return (
         <section id='signup'>
-            <div className='mx-auto container p-4'>
+            <div className='mx-auto container p-4 lg:my-0 my-10 mb-0'>
                 <div className='bg-white p-5 w-full max-w-sm mx-auto'>
                     <div className='w-20 h-20 mx-auto relative overflow-hidden rounded-full shadow-md'>
                         <img src={data.profilePic || loginIcons} alt='login Icons' className='w-full h-full object-cover' />

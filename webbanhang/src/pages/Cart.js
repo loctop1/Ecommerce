@@ -142,7 +142,7 @@ const Cart = () => {
     }
 
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto lg:my-0 my-10 mb-0'>
             <div className='text-center text-lg my-3'>
                 {
                     data.length === 0 && !loading && (

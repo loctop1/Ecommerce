@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import loginIcons from '../assets/signin.gif'
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -55,7 +55,7 @@ const Login = () => {
 
     return (
         <section id='login'>
-            <div className='mx-auto container p-4'>
+            <div className='mx-auto container p-4 lg:my-0 my-10 mb-0'>
                 <div className='bg-white p-5 w-full max-w-sm mx-auto'>
                     <div className='w-20 h-20 mx-auto'>
                         <img className='rounded-full' src={loginIcons} alt='login Icons' />
