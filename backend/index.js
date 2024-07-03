@@ -30,7 +30,7 @@ app.use(express.json({ limit: '50mb' }))
 
 app.use(cookieParser())
 
-app.use("/api", router)
+app.use("api", router)
 /**Dòng này đăng ký middleware cho các tuyến đường bắt đầu bằng "/api". 
  * Điều này có nghĩa là tất cả các yêu cầu đến "/api" sẽ được xử lý 
  * bởi router được định nghĩa trong tệp routes. */
