@@ -105,7 +105,7 @@ const HorizontalCardProduct = ({ category, heading }) => {
                                     <p className='font-semibold md:text-lg text-md text-slate-500 line-through'>{displayVNDCurrency(product?.price)}</p>
                                 </div>
                             </div>
-                            <div className='pr-4 pl-4'>
+                            <div className='pr-4 pl-4 py-4'>
                                 <button className='w-full rounded-full font-semibold md:text-md text-sm bg-[#cc0000] hover:bg-red-700 text-white px-3 py-2' onClick={(e) => handleAddToCart(e, product?._id)}>Thêm vào giỏ hàng</button>
                             </div>
                         </Link>
