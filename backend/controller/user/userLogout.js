@@ -2,8 +2,8 @@ async function userLogout(req, res) {
     try {
         const tokenOption = {
             httpOnly: true,
-            secure: true,
-            sameSite: 'None',
+            // secure: true, // Tạm thời loại bỏ
+            // sameSite: 'None', // Tạm thời loại bỏ
         }
 
         res.clearCookie("token", tokenOption)
