@@ -91,7 +91,7 @@ const CategoryProduct = () => {
     };
 
     return (
-        <div className="container mx-auto p-4">
+        <div className="container mx-auto p-4 lg:my-0 my-12 mb-0">
             <div className="grid grid-cols-1 lg:grid-cols-[200px,1fr]">
                 {/* Sidebar for larger screens */}
                 <div className="hidden lg:block bg-white p-2 lg:min-h-[calc(100vh-120px)] overflow-y-auto scrollbar-none">
