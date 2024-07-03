@@ -1,3 +1,5 @@
+const cors = require("cors")
+
 const express = require('express')
 /**Dòng này nhập mô-đun Express, một khung ứng dụng 
  * web cho Node.js giúp xây dựng các ứng dụng web và API. */
@@ -34,6 +36,8 @@ app.use("/api", router)
 /**Dòng này đăng ký middleware cho các tuyến đường bắt đầu bằng "/api". 
  * Điều này có nghĩa là tất cả các yêu cầu đến "/api" sẽ được xử lý 
  * bởi router được định nghĩa trong tệp routes. */
+
+app.use(cors())
 
 const PORT = 8080 || process.env.PORT
 /**Dòng này đặt biến PORT thành 8080 nếu process.env.PORT không 
