@@ -22,7 +22,7 @@ const SearchProduct = () => {
         window.scrollTo(0, 0); // Scroll to top when the component mounts
     }, [query])
     return (
-        <div className='container mx-auto p-4'>
+        <div className='container mx-auto p-4 lg:my-0 my-10 mb-0'>
             {
                 loading && (
                     <p className='text-lg text-center'>Đang tìm kiếm sản phẩm...</p>
